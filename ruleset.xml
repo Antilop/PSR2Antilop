@@ -4,6 +4,18 @@
     <!-- Include the whole PSR-2 standard -->
     <rule ref="PSR2">
         <exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
+        <exclude name="Generic.Files.LineLength"/>
+        <!-- Dont force Namespace delcaration -->
+        <exclude name="Squiz.Functions.UseDeclarationSniff"/>
     </rule>
+
     <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+    <!-- Softer line limit -->
+    <rule ref="Generic.Files.LineLength">
+		<properties>
+			<property name="lineLimit" value="180"/>
+			<property name="absoluteLineLimit" value="0"/>
+		</properties>
+	</rule>
+
 </ruleset>
