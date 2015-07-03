@@ -6,8 +6,8 @@
 		<exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
 		<exclude name="Generic.Files.LineLength"/>
 
-        <!-- Dont force Namespace delcaration -->
-        <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+		<!-- Dont force Namespace delcaration -->
+		<exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
 	</rule>
 
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
