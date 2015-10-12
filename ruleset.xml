@@ -3,14 +3,12 @@
 	<description>PSR2 adapted to Antilop needs.</description>
 	<!-- Include the whole PSR-2 standard -->
 	<rule ref="PSR2">
-		<exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
 		<exclude name="Generic.Files.LineLength"/>
 
 		<!-- Dont force Namespace delcaration -->
 		<exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
 	</rule>
 
-	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 	<!-- Softer line limit -->
 	<rule ref="Generic.Files.LineLength">
 		<properties>
@@ -18,5 +16,4 @@
 			<property name="absoluteLineLimit" value="0"/>
 		</properties>
 	</rule>
-
 </ruleset>
